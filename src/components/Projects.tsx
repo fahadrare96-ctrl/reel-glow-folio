@@ -8,57 +8,63 @@ import project3 from "@/assets/project3.jpg"
 const projects = [
   {
     id: 1,
-    title: "Corporate Brand Film",
-    description: "A sleek brand story for a Fortune 500 company, showcasing their innovation and company culture through compelling visual storytelling.",
+    title: "StreetBeat Reels Campaign",
+    description: "15 social reels for an urban clothing drop — fast cuts, text overlays, and trending sound edits.",
     image: project1,
-    category: "Corporate",
-    duration: "3:24",
-    views: "2.1M",
+    category: "Reels & Short-Form",
+    duration: "0:15-0:30",
+    views: "1.2M",
+    caseStudy: "Role: Lead editor. Tools: Premiere Pro, After Effects, Audition. Deliverables: 15 IG reels, 3 TikTok formats. Impact: 1.2M total views across platforms; +42% follower growth in 6 weeks."
   },
   {
     id: 2,
-    title: "Music Video - Neon Dreams",
-    description: "High-energy music video with dynamic color grading and synchronized editing that perfectly matches the artist's electronic sound.",
+    title: "EchoMotion Brand Film",
+    description: "3-minute brand story blending interviews and product b-roll.",
     image: project2,
-    category: "Music Video",
-    duration: "4:15",
-    views: "8.7M",
+    category: "Storytelling",
+    duration: "3:00",
+    views: "285K",
+    caseStudy: "Role: Editor & finishing. Tools: DaVinci Resolve, Premiere Pro. Deliverables: 3-min film + 3 cutdowns. Impact: average view completion 58%; used on landing page and ads."
   },
   {
     id: 3,
-    title: "Documentary - Climate Change",
-    description: "Award-winning documentary featuring intimate interviews and powerful B-roll footage that brings environmental stories to life.",
+    title: "QuickCart 30s Ad",
+    description: "Crisp 30s ad optimized for Facebook and YouTube.",
     image: project3,
-    category: "Documentary",
-    duration: "52:30",
-    views: "1.5M",
+    category: "Ads & Promo",
+    duration: "0:30",
+    views: "450K",
+    caseStudy: "Role: Edit + A/B ad variants. Tools: Premiere Pro, After Effects. Impact: CTR uplift +32% vs previous creatives; conversion lift +18%."
   },
   {
     id: 4,
-    title: "Tech Product Launch",
-    description: "Product showcase video for a cutting-edge tech startup, featuring sleek motion graphics and seamless transitions.",
+    title: "Pulse Channel Intro",
+    description: "8s animated intro with alpha channel for quick re-use.",
     image: project1,
-    category: "Commercial",
-    duration: "2:45",
-    views: "950K",
+    category: "Intro / Stinger",
+    duration: "0:08",
+    views: "N/A",
+    caseStudy: "Role: Motion edit and deliverables. Tools: After Effects. Deliverables: 8s MP4, 4k, alpha .mov. Result: professional brand identity across 120 episodes."
   },
   {
     id: 5,
-    title: "Wedding Highlight Reel",
-    description: "Emotional wedding film capturing the couple's special day with cinematic flair and heartfelt storytelling.",
+    title: "Lumiere Event Highlight",
+    description: "4-minute cinematic highlight for a product launch event.",
     image: project2,
-    category: "Wedding",
-    duration: "8:30",
-    views: "125K",
+    category: "Event / Highlights",
+    duration: "4:00",
+    views: "78K",
+    caseStudy: "Role: Lead editor. Tools: Premiere Pro, color grade in Resolve. Deliverables: 4-min highlight + social cutdowns."
   },
   {
     id: 6,
-    title: "Social Media Campaign",
-    description: "Series of short-form videos for social media platforms, optimized for engagement and brand awareness.",
+    title: "Atlas Corporate Promo",
+    description: "Corporate promo mixing interviews, product shots and motion graphics.",
     image: project3,
-    category: "Social Media",
-    duration: "0:30-1:00",
-    views: "5.2M",
+    category: "Corporate / Showreel",
+    duration: "2:15",
+    views: "156K",
+    caseStudy: "Role: Editing, motion interstitials. Tools: Premiere Pro + After Effects. Deliverables: 2:15 promo + 3 short clips for social."
   },
 ]
 
@@ -72,8 +78,7 @@ export function Projects() {
             Featured <span className="bg-gradient-primary bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-xl text-muted-foreground">
-            A showcase of my recent work across various genres and platforms, 
-            each project crafted with attention to detail and creative vision.
+            Selected projects across Reels, Storytelling, Ads and Intros — click any card for a short case study.
           </p>
         </div>
 

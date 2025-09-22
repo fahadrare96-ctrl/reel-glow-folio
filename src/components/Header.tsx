@@ -44,11 +44,11 @@ export function Header() {
           <div className="flex items-center space-x-3">
             <img 
               src={logo} 
-              alt="Video Editor Logo" 
+              alt="Fahad Hussain — video editor logo (play button + film strip)" 
               className="h-10 w-10 rounded-lg"
             />
             <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              VideoCreator
+              Fahad Hussain
             </span>
           </div>
 
@@ -73,13 +73,13 @@ export function Header() {
               onClick={() => scrollToSection("#contact")}
               className="btn-hero"
             >
-              Get In Touch
+              Book a Call
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center space-x-2">
-            <ThemeToggle />
+          <ThemeToggle aria-label="Toggle dark and light mode" />
             <Button
               variant="ghost"
               size="icon"
@@ -108,7 +108,7 @@ export function Header() {
                 onClick={() => scrollToSection("#contact")}
                 className="btn-hero w-full mt-4"
               >
-                Get In Touch
+                Book a Call
               </Button>
             </nav>
           </div>

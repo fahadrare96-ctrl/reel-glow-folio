@@ -41,9 +41,9 @@ export function About() {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            About <span className="bg-gradient-primary bg-clip-text text-transparent">Me</span>
-          </h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              About <span className="bg-gradient-primary bg-clip-text text-transparent">Fahad</span>
+            </h2>
           <p className="text-xl text-muted-foreground">
             Get to know the person behind the edits - my journey, values, and 
             what drives my passion for video storytelling.
