@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Play, ExternalLink } from "lucide-react"
+import { Play, ExternalLink, ArrowRight } from "lucide-react"
 import project1 from "@/assets/project1.jpg"
 import project2 from "@/assets/project2.jpg"
 import project3 from "@/assets/project3.jpg"
@@ -148,4 +148,3 @@ export function Projects() {
 }
 
 // Missing import
-import { ArrowRight } from "lucide-react"
